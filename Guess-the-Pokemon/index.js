@@ -40,7 +40,7 @@ let maxguesses = 3
 function comparePokemon() {
     const userPokemon = document.getElementById("userPokemon").value
 
-    if (attempts < maxguesses) {
+    if (attempts <= maxguesses) {
         if (userPokemon.toLowerCase() === correctName.toLowerCase()) {
             document.getElementById("answer").innerHTML = "Boa! Era o " + correctName + "."
             document.getElementById("userPokemon").setAttribute("Readonly", "Readonly")
