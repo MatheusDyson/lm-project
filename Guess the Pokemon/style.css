@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Oxanium', cursive;
+}
+
+:root {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+  background: linear-gradient(to bottom, #fff5f5, #ffffff);
+  font-size: 1.6rem;
+  color: #e1e1e6;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#body {
+  background-color: #ffd7d7;
+  padding: 2.4rem 3.2rem;
+  border: 2px solid rgb(170, 41, 41);
+  border-radius: 2%;
+  height: 50vh;
+  width: 100vw;
+  max-width: 440px;
+
+  display: grid;
+  grid-template-rows: max-content 1fr max-content;
+  margin: auto;
+  color: rgb(139, 38, 38)
+}
+
+#top {
+  margin-top: 3rem;
+  display: grid;
+  gap: 3rem;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  text-align: center;
+}
+
+#tips {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  text-align: center;
+}
+
+input {
+  font-size: 2.0rem;
+  text-align: center;
+}
+
+#answers {
+  display: flex;
+  align-items: center;
+  padding: 1.4rem 2.4rem;
+}

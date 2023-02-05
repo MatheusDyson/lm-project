@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+  }
+  
+  button[id="submitButton"] {
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+  }
+  
+  p[id="result"] {
+    font-size: 20px;
+    margin: 10px;
+  }
