@@ -15,7 +15,7 @@
 }
 
 body {
-  background: linear-gradient(to bottom, #fff5f5, #ffffff);
+  background: linear-gradient(to bottom, #f1cfcf, #ffffff);
   font-size: 1.6rem;
   color: #e1e1e6;
   display: flex;
@@ -26,13 +26,12 @@ body {
 
 #body {
   background-color: #ffd7d7;
-  padding: 2.4rem 3.2rem;
+  padding: 1.0rem 3.2rem;
   border: 2px solid rgb(170, 41, 41);
   border-radius: 2%;
-  height: 50vh;
+  height: 40vh;
   width: 100vw;
-  max-width: 440px;
-
+  max-width: 44.0rem;
   display: grid;
   grid-template-rows: max-content 1fr max-content;
   margin: auto;
@@ -42,26 +41,35 @@ body {
 #top {
   margin-top: 3rem;
   display: grid;
-  gap: 3rem;
+  gap: 1rem;
   font-size: 1.2rem;
   line-height: 1.4rem;
   text-align: center;
 }
 
 #tips {
-  display: flex;
+  margin: auto;
+  display: absolute;
   align-items: center;
   gap: 1.6rem;
   text-align: center;
+  line-height: 3rem;
 }
 
 input {
+  display: grid;
+  align-items: center;
   font-size: 2.0rem;
+  width: 10vw;
   text-align: center;
+  margin: auto;
 }
 
 #answers {
-  display: flex;
+  margin: auto;
+  display: absolute;
   align-items: center;
-  padding: 1.4rem 2.4rem;
+  gap: 1.6rem;
+  text-align: center;
+  line-height: 3rem;
 }
