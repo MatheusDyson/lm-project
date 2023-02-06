@@ -30,9 +30,9 @@ const correctName = correctPokemon.pokemonName
 const correctType = correctPokemon.pokemonType
 const correctGeneration = correctPokemon.pokemonGeneration
 
-console.log(correctName)
-console.log(correctType)
-console.log(correctGeneration)
+//console.log(correctName)
+//console.log(correctType)
+//console.log(correctGeneration)
 
 let attempts = 0
 let maxguesses = 3
